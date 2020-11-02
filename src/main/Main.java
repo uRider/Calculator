@@ -62,7 +62,7 @@ public class Main  {
 
                     }
                     if (matcher.start(3)>=0) {
-                        String sz = matcher.group(3).trim();  //знак
+                        String sz = matcher.group(3).trim(); 
 
                         action = StringParser.toAction(sz);
                     }
