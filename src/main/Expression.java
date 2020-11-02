@@ -22,6 +22,7 @@ public class Expression  {
                     break;
                 case Div:
                     iRez=(Integer) iRez/ival;
+                    break;
                 case none:
                     throw new NoValidateTipExeption("НЕТ ОПЕРАЦИИ");
                 default:
